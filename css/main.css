@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Comic Sans MS", sans-serif;
+    src: url(../assets/fonts/ComicSansMS/ComicSansMS.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(255, 204, 204), rgb(255, 118, 118))
+}
+
+.formulario{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 234, 234);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    width: 91%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+
+button{
+border: 10px;
+border-radius: 5px;
+}
